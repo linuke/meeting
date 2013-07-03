@@ -1,0 +1,68 @@
+.ul-table {
+	clear: both;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	list-style: none;
+}
+
+.ul-table li {
+	float: left;
+	text-indent: 2em
+}
+
+.ul-th {
+	font-weight: bold;
+}
+
+.list {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	line-height: 30px;
+	border: 1px solid #99CC00;
+	font-size: 12px;
+}
+
+.list li.columnhead {
+	font-size: 14px;
+	font-weight: bold;
+	background: #F1FADE;
+}
+
+.list li {
+	display: block;
+	float: left;
+	text-indent: 2em
+}
+
+.dl-table {
+	width: 98%;
+	font-size: 9pt;
+	line-height: 1.5em;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	left: 15px;
+}
+
+.dl-table dt {
+	float: left;
+	margin:5px 0;
+	text-align: right;
+	vertical-align:middle;
+	width: 20%;
+}
+
+.dl-table dd {
+	float: left;
+	clear: none;
+	margin:5px 0;
+	text-align: left;
+	vertical-align:middle;
+	width: 80%;
+}

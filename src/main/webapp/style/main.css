@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+BODY {
+	background-color:#9eb6d8;
+	font-size:9pt;
+	height: 100%;
+	overflow-x: hidden;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.container {
+	width: 90%;
+	height: auto;
+	min-height: 95%;
+	background-color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.footer {
+	width: 90%;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: -1;
+	margin: 0 auto;
+}

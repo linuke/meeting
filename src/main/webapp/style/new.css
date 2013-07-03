@@ -1,0 +1,161 @@
+﻿html {
+	height: 100%;
+	width: 100%;
+}
+
+BODY {
+	min-height: 100%;
+	font-size: 9pt;
+	background-color: #9eb6d8;
+	height: 100%;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 0;
+	overflow: hidden;
+	margin-left: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+input,textarea,select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-size: 11pt;
+}
+
+input[text],select {
+	height: 25px;
+	line-height: 25px;
+}
+
+em {
+	color: red !important;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	min-height: 95%;
+	height: 95%;
+	background-color: #ffffff;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 99;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+/*数据table样式*/
+.dtable {
+	border: 0;
+	background-color: #698cc3;
+	width: 95%;
+	margin-top: 0;
+}
+
+.dtable tr {
+	border-color: gray;
+	background-color: #FFFFFF;
+	font-size: 9pt;
+}
+
+td {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.btn {
+	color: #44606b;
+	background-color: #ffffff;
+}
+
+A:link {
+	COLOR: #003366;
+	TEXT-DECORATION: none
+}
+
+A:visited {
+	COLOR: #003366;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+/*普通粗体*/
+.nav {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: Tahoma, Verdana
+}
+/*标题头，白色字体，粉蓝色背景，字体大小9pt*/
+.header {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: #ffffff;
+	FONT-FAMILY: Tahoma, Verdana;
+	BACKGROUND-COLOR: #698cc3
+}
+/*分类，黑色，很浅的粉蓝色背景，字体大小9pt*/
+.category {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma, Verdana;
+	BACKGROUND-COLOR: #efefef
+}
+/*蓝色字体*/
+.multi {
+	FONT-SIZE: 9pt;
+	COLOR: #003366;
+	FONT-FAMILY: Tahoma, Verdana
+}
+/*小号字体，8pt大小*/
+.smalltxt {
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: Tahoma, Verdana
+}
+/*黑色普通大小字体，9pt大小*/
+.mediumtxt {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma, Verdana
+}
+/*粗体字体*/
+.bold {
+	FONT-WEIGHT: bold
+}
+/*用来控制表单说明字段表格的样式控制*/
+.formnametd {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	FONT-FAMILY: Tahoma, Verdana;
+	BACKGROUND-COLOR: #efefef
+}
+/*用来控制整个表格标题的样式控制，如：我的审核文件里列表*/
+.tabletitle {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: Tahoma, Verdana;
+	color: #003366 /*Modify by LUSS
+    FONT-SIZE: 12pt;face:"楷体_GB2312"; COLOR: #330099; FONT-FAMILY: Tahoma, Verdana; 
+	End Modify*/
+}
